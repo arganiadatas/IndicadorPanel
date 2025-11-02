@@ -66,10 +66,11 @@ export function EconomicChart({ data, height = 200, showGrid = true }: EconomicC
     // v5.x API: use chart.addSeries(AreaSeries, options) with theme colors
     const areaSeries = chart.addSeries(AreaSeries, {
       lineColor: primaryHex,
-      topColor: primaryHex + "48", // 28% opacity in hex
-      bottomColor: primaryHex + "0D", // 5% opacity in hex
+      topColor: "hsl(217 91% 60% / 0.28)", // 28% opacidad
+      bottomColor: "hsl(217 91% 60% / 0.05)", // 5% opacidad
       lineWidth: 2,
     });
+
 
     // Convert data to TradingView format
     const formattedData = data.map((point) => ({
