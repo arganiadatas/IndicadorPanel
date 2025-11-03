@@ -60,7 +60,8 @@ export class MemStorage implements IStorage {
           { time: "2025-06-01", value: 4.26 },
           { time: "2025-07-01", value: 1.09 },
           { time: "2025-08-01", value: -59.9 },
-          { time: "2025-09-01", value: -51.1 }
+          { time: "2025-09-01", value: -51.1 },
+          { time: "2025-10-01", value: -3.6 }
         ],
       },
       {
