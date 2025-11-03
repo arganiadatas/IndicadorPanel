@@ -34,6 +34,7 @@ export const INDICATOR_IDS = {
   DEUDA: "deuda",
   CRIPTO_PAT: "cripto-pat",
   ALQUILERES: "alquileres",
+  APROBACION: "aprobacion",
 } as const;
 
 export type IndicatorId = typeof INDICATOR_IDS[keyof typeof INDICATOR_IDS];
