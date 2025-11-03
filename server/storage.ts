@@ -44,7 +44,7 @@ export class MemStorage implements IStorage {
         name: "Inflación (IPC mensual)",
         description: "El índice de precios al consumidor (IPC) mide la variación de precios de los bienes y servicios representativos del gasto de consumo de los hogares.",
         unit: "%",
-        trend: -8.9,
+        trend: -3.6,
         data: [
           { time: "2024-07-01", value: 154.76 },
           { time: "2024-08-01", value: 119.63 },
