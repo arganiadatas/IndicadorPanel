@@ -20,7 +20,7 @@ export class MemStorage implements IStorage {
         name: "Alquileres",
         description: "Indicador del alquiler promedio de Furmul",
         unit: "$",
-        trend: 0.0,
+        trend: 340,
         data: [
           { time: "2024-08-09", value: 0.04 },
           { time: "2024-09-09", value: 0.27 },
@@ -45,7 +45,7 @@ export class MemStorage implements IStorage {
         name: "Aprobaciones",
         description: "Aprobacion Gubernamental de todos los gobiernos",
         unit: "%",
-        trend: -1.67,
+        trend: -11.32,
         data: [
          {
   time: "2024-08-02",
@@ -2955,7 +2955,7 @@ export class MemStorage implements IStorage {
         name: "Cripto $PAT",
         description: "Valor de mercado de la criptomoneda $PAT (Patria Token), un activo digital emergente vinculado al ecosistema económico local. Refleja la confianza de inversores en instrumentos alternativos de ahorro y la adopción de tecnologías blockchain en la región.",
         unit: "ANS",
-        trend: -67.97,
+        trend: 38.32,
         data: [
           { time: "2025-09-25", value: 798 },
           { time: "2025-09-26", value: 2333 },
