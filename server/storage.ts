@@ -36,7 +36,8 @@ export class MemStorage implements IStorage {
           { time: "2025-07-09", value: 974 },
           { time: "2025-08-09", value: 806 },
           { time: "2025-09-09", value: 2237 },
-          { time: "2025-10-04", value: 2237 }
+          { time: "2025-10-04", value: 2237 },
+          { time: "2025-11-04", value: 9825 }
         ],
       },
         {
@@ -1846,6 +1847,14 @@ export class MemStorage implements IStorage {
             time: "2025-11-02",
             value: 59
           },
+          {
+            time: "2025-11-03",
+            value: 53
+          },
+          {
+            time: "2025-11-04",
+            value: 47
+          },
         ],
       },
       {
@@ -2412,11 +2421,11 @@ export class MemStorage implements IStorage {
         id: INDICATOR_IDS.RESERVAS,
         name: "Reservas USD",
         description: "Reservas internacionales en dólares estadounidenses del Banco Central de la República Argentina. Estas reservas incluyen oro, divisas extranjeras y otros activos de liquidez internacional.",
-        unit: "Mil Millones USD",
-        trend: -0.12,
+        unit: "USD",
+        trend: -0.06,
         data: [
          { time: "2024-08-23", value: 210002.56 },
-{ time: "2024-08-24", value: 210000.32 },
+          { time: "2024-08-24", value: 210000.32 },
 { time: "2024-08-25", value: 210023.99 },
 { time: "2024-08-26", value: 213024.99 },
 { time: "2024-08-27", value: 213028.2 },
@@ -2850,6 +2859,10 @@ export class MemStorage implements IStorage {
 { time: "2025-10-29", value: 26754386345898.2 },
 { time: "2025-10-30", value: 26990890796117.7 },
 { time: "2025-10-31", value: 26958797270773.0 },
+          { time: "2025-11-01", value: 26949286585090 },
+          { time: "2025-11-02", value: 26866152571694 },
+          { time: "2025-11-03", value: 26886210496023 },
+          { time: "2025-11-04", value: 26870524965466 },
         ],
       },
       {
@@ -2972,6 +2985,9 @@ export class MemStorage implements IStorage {
           { time: "2025-10-29", value: 93059 },
           { time: "2025-10-30", value: 95514 },
           { time: "2025-10-31", value: 30596 },
+          { time: "2025-11-01", value: 1408 },
+          { time: "2025-11-02", value: 44964 },
+          { time: "2025-11-03", value: 62194 },
         ],
       },
   
