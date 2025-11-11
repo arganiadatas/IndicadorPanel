@@ -36,6 +36,7 @@ export const INDICATOR_IDS = {
   ALQUILERES: "alquileres",
   APROBACION: "aprobacion",
   ENFPRODUCCION: "enfoque-produccion",
+  SALARIOS: "Salarios",
 } as const;
 
 export type IndicatorId = typeof INDICATOR_IDS[keyof typeof INDICATOR_IDS];
