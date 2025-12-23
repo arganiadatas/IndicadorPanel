@@ -20,7 +20,7 @@ export class MemStorage implements IStorage {
         name: "Alquileres",
         description: "Indicador del alquiler promedio de Furmul",
         unit: "$",
-        trend: 340,
+        trend: 2083,
         data: [
           { time: "2024-08-09", value: 0.04 },
           { time: "2024-09-09", value: 0.27 },
@@ -37,7 +37,8 @@ export class MemStorage implements IStorage {
           { time: "2025-08-09", value: 806 },
           { time: "2025-09-09", value: 2237 },
           { time: "2025-10-04", value: 2237 },
-          { time: "2025-11-04", value: 9825 }
+          { time: "2025-11-04", value: 9825 },
+          { time: "2025-12-04", value: 2083 }
         ],
       },
         {
@@ -45,7 +46,7 @@ export class MemStorage implements IStorage {
         name: "Salarios",
         description: "Indice de crecimiento Salarial de Argania",
         unit: "%",
-        trend: -29.46,
+        trend: 0.45,
         data: [
           { time: "2024-07-01", value: 182.78 },
           { time: "2024-08-01", value: 825.64 },
@@ -63,6 +64,7 @@ export class MemStorage implements IStorage {
           { time: "2025-09-01", value: -4.90 },
           { time: "2025-10-01", value: -4.72 },
           { time: "2025-11-01", value: -29.46 },
+          { time: "2025-12-01", value: 0.45 },
         ],
       },
        {
@@ -2358,6 +2360,48 @@ export class MemStorage implements IStorage {
           { time: "2025-11-08", value: 50},
           { time: "2025-11-09", value: 49},
           { time: "2025-11-10", value: 56},
+          { time: "2025-11-11", value: 57},
+          { time: "2025-11-12", value: 62},
+          { time: "2025-11-13", value: 60},
+          { time: "2025-11-14", value: 58},
+          { time: "2025-11-15", value: 58},
+          { time: "2025-11-16", value: 58},
+          { time: "2025-11-17", value: 58},
+          { time: "2025-11-18", value: 50},
+          { time: "2025-11-19", value: 50},
+          { time: "2025-11-20", value: 50},
+          { time: "2025-11-21", value: 51},
+          { time: "2025-11-22", value: 51},
+          { time: "2025-11-23", value: 51},
+          { time: "2025-11-24", value: 51},
+          { time: "2025-11-25", value: 50.64},
+          { time: "2025-11-26", value: 50},
+          { time: "2025-11-27", value: 51},
+          { time: "2025-11-28", value: 50},
+          { time: "2025-11-29", value: 50},
+          { time: "2025-11-30", value: 49},
+          { time: "2025-12-01", value: 51},
+          { time: "2025-12-02", value: 49},
+          { time: "2025-12-03", value: 49},
+          { time: "2025-12-04", value: 49},
+          { time: "2025-12-05", value: 48},
+          { time: "2025-12-06", value: 48},
+          { time: "2025-12-07", value: 47},
+          { time: "2025-12-08", value: 47},
+          { time: "2025-12-09", value: 45},
+          { time: "2025-12-10", value: 43},
+          { time: "2025-12-11", value: 43},
+          { time: "2025-12-12", value: 43},
+          { time: "2025-12-13", value: 43},
+          { time: "2025-12-14", value: 40},
+          { time: "2025-12-15", value: 40},
+          { time: "2025-12-16", value: 40},
+          { time: "2025-12-17", value: 39},
+          { time: "2025-12-18", value: 39},
+          { time: "2025-12-19", value: 39},
+          { time: "2025-12-20", value: 37},
+          { time: "2025-12-21", value: 37},
+          { time: "2025-12-22", value: 37},
         ],
       },
       {
@@ -2365,7 +2409,7 @@ export class MemStorage implements IStorage {
         name: "Inflación (IPC mensual)",
         description: "El índice de precios al consumidor (IPC) mide la variación de precios de los bienes y servicios representativos del gasto de consumo de los hogares.",
         unit: "%",
-        trend: -3.6,
+        trend: 26.9,
         data: [
           { time: "2024-07-01", value: 154.76 },
           { time: "2024-08-01", value: 119.63 },
@@ -2382,7 +2426,8 @@ export class MemStorage implements IStorage {
           { time: "2025-07-01", value: 1.09 },
           { time: "2025-08-01", value: -59.9 },
           { time: "2025-09-01", value: -51.1 },
-          { time: "2025-10-01", value: -3.6 }
+          { time: "2025-10-01", value: -3.6 },
+          { time: "2025-11-01", value: 26.9 }
         ],
       },
       {
@@ -2407,6 +2452,8 @@ export class MemStorage implements IStorage {
           { time: "2025-06-01", value: 833294 },
           { time: "2025-07-01", value: 560134 },
           { time: "2025-08-01", value: 401895 },
+          { time: "2025-09-01", value: 375988 },
+          { time: "2025-10-01", value: 410579 },
         ],
       },
       {
@@ -2414,7 +2461,7 @@ export class MemStorage implements IStorage {
         name: "EMAE",
         description: "El Estimador Mensual de Actividad Económica (EMAE) refleja la evolución mensual de la actividad económica del conjunto de los sectores productivos a nivel nacional.",
         unit: "índice",
-        trend: -0.84,
+        trend: 0.0,
         data: [
           { time: "2024-08-01", value: 100.0 },
           { time: "2024-09-01", value: 99.0 },
@@ -2431,6 +2478,7 @@ export class MemStorage implements IStorage {
           { time: "2025-08-01", value: 108.8 },
           { time: "2025-09-01", value: 109.9 },
           { time: "2025-10-01", value: 109.0 },
+          { time: "2025-11-01", value: 109.0 },
         ],
       },
       {
@@ -3390,7 +3438,7 @@ export class MemStorage implements IStorage {
         name: "Ventas en Supermercados",
         description: "Mide la evolución de las ventas a los consumidores finales en supermercados a precios corrientes. Es un indicador clave del consumo privado y la actividad económica interna.",
         unit: "var. %",
-        trend: 54.9,
+        trend: 878.09,
         data: [
           { time: "2024-09-01", value: 4763.0 },
           { time: "2024-10-01", value: 4250.8 },
@@ -3406,6 +3454,7 @@ export class MemStorage implements IStorage {
           { time: "2025-08-01", value: 110.4 },
           { time: "2025-09-01", value: 176.9 },
           { time: "2025-10-01", value: 54.0 },
+          { time: "2025-11-01", value: 878.09 },
         ],
       },
       {
@@ -3413,7 +3462,7 @@ export class MemStorage implements IStorage {
         name: "Resultado Fiscal Primario",
         description: "El resultado fiscal primario muestra el balance de ingresos y gastos del sector público nacional antes del pago de intereses de la deuda. Un resultado positivo indica superávit, mientras que un resultado negativo indica déficit.",
         unit: "M $",
-        trend: 406.3,
+        trend: 138635852,
         data: [
           { time: "2024-09-01", value: 262 },
           { time: "2024-10-01", value: 36 },
@@ -3428,6 +3477,8 @@ export class MemStorage implements IStorage {
           { time: "2025-07-01", value: 20353575 },
           { time: "2025-08-01", value: 18243567 },
           { time: "2025-09-01", value: 92365753 },
+          { time: "2025-10-01", value: 128010772 },
+          { time: "2025-11-01", value: 138635852 },
         ],
       },
       {
@@ -3468,6 +3519,7 @@ export class MemStorage implements IStorage {
           { time: "2025-08-01", value: 1.26 },
           { time: "2025-09-01", value: 0 },
           { time: "2025-10-01", value: 0 },
+          { time: "2025-11-01", value: 0 },
         ],
       },
       {
