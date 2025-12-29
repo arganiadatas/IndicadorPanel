@@ -2960,7 +2960,7 @@ export class MemStorage implements IStorage {
         name: "Tasa de Desocupación",
         description: "Presenta información sobre el comportamiento del mercado de trabajo, midiendo el porcentaje de la población económicamente activa que se encuentra sin empleo.",
         unit: "%",
-        trend: -0.28,
+        trend: 0.18,
         data: [
           { time: "2024-08-01", value: 1.12 },
           { time: "2024-09-01", value: 0.98 },
@@ -2977,6 +2977,7 @@ export class MemStorage implements IStorage {
           { time: "2025-08-01", value: 4.29 },
           { time: "2025-09-01", value: 0.65 },
           { time: "2025-10-01", value: 0.37 },
+          { time: "2025-11-01", value: 0.55 },
         ],
       },
       {
