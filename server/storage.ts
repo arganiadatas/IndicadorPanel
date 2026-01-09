@@ -20,7 +20,7 @@ export class MemStorage implements IStorage {
         name: "Alquileres",
         description: "Indicador del alquiler promedio de Furmul",
         unit: "$",
-        trend: 2083,
+        trend: 581,
         data: [
           { time: "2024-08-09", value: 0.04 },
           { time: "2024-09-09", value: 0.27 },
@@ -38,7 +38,8 @@ export class MemStorage implements IStorage {
           { time: "2025-09-09", value: 2237 },
           { time: "2025-10-04", value: 2237 },
           { time: "2025-11-04", value: 9825 },
-          { time: "2025-12-04", value: 2083 }
+          { time: "2025-12-04", value: 2083 },
+          { time: "2026-01-04", value: 581 }
         ],
       },
         {
@@ -2427,7 +2428,8 @@ export class MemStorage implements IStorage {
           { time: "2025-08-01", value: -59.9 },
           { time: "2025-09-01", value: -51.1 },
           { time: "2025-10-01", value: -3.6 },
-          { time: "2025-11-01", value: 26.9 }
+          { time: "2025-11-01", value: 26.9 },
+          { time: "2025-12-01", value: 35.2 }
         ],
       },
       {
@@ -2461,7 +2463,7 @@ export class MemStorage implements IStorage {
         name: "EMAE",
         description: "El Estimador Mensual de Actividad Económica (EMAE) refleja la evolución mensual de la actividad económica del conjunto de los sectores productivos a nivel nacional.",
         unit: "índice",
-        trend: 0.0,
+        trend: -0.69,
         data: [
           { time: "2024-08-01", value: 100.0 },
           { time: "2024-09-01", value: 99.0 },
@@ -2479,6 +2481,7 @@ export class MemStorage implements IStorage {
           { time: "2025-09-01", value: 109.9 },
           { time: "2025-10-01", value: 109.0 },
           { time: "2025-11-01", value: 109.0 },
+          { time: "2025-12-01", value: 108.3 },
         ],
       },
       {
@@ -2960,7 +2963,7 @@ export class MemStorage implements IStorage {
         name: "Tasa de Desocupación",
         description: "Presenta información sobre el comportamiento del mercado de trabajo, midiendo el porcentaje de la población económicamente activa que se encuentra sin empleo.",
         unit: "%",
-        trend: 0.18,
+        trend: 0.75,
         data: [
           { time: "2024-08-01", value: 1.12 },
           { time: "2024-09-01", value: 0.98 },
@@ -2978,6 +2981,7 @@ export class MemStorage implements IStorage {
           { time: "2025-09-01", value: 0.65 },
           { time: "2025-10-01", value: 0.37 },
           { time: "2025-11-01", value: 0.55 },
+          { time: "2025-12-01", value: 1.30 },
         ],
       },
       {
