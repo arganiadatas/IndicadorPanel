@@ -20,7 +20,7 @@ export class MemStorage implements IStorage {
         name: "Alquileres",
         description: "Indicador del alquiler promedio de Furmul",
         unit: "$",
-        trend: 581,
+        trend: 122953,
         data: [
           { time: "2024-08-09", value: 0.04 },
           { time: "2024-09-09", value: 0.27 },
