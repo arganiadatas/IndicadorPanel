@@ -2436,7 +2436,7 @@ export class MemStorage implements IStorage {
           { time: "2025-01-19", value: 39},
           { time: "2025-01-20", value: 39},
           { time: "2025-01-21", value: 34.47},
-          { time: "2025-01-22", value: 35,
+          { time: "2025-01-22", value: 35},
           { time: "2025-01-23", value: 36},
           { time: "2025-01-24", value: 37},
           { time: "2025-01-25", value: 37.50},
