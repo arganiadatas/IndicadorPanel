@@ -22,6 +22,7 @@ export type EconomicIndicator = z.infer<typeof economicIndicatorSchema>;
 
 // All available indicators
 export const INDICATOR_IDS = {
+  DOLAR: "Dólar",
   INFLATION: "inflacion",
   CANASTA_BASICA: "canasta-basica",
   EMAE: "emae",
