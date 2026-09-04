@@ -20,7 +20,7 @@ export class MemStorage implements IStorage {
         name: "Dólar",
         description: "Cotización del Dólar",
         unit: "$",
-        trend: 268.95,
+        trend: 280.92,
         data: [
           { time: "2024-11-25", value: 5.00 },
 { time: "2024-11-26", value: 15.00 },
@@ -666,6 +666,10 @@ export class MemStorage implements IStorage {
           { time: "2026-08-28", value: 278.49 },
           { time: "2026-08-29", value: 278.60 },
           { time: "2026-08-30", value: 280.26 },
+          { time: "2026-08-31", value: 280.90 },
+          { time: "2026-09-01", value: 281.30 },
+          { time: "2026-09-02", value: 282.06 },
+          { time: "2026-09-03", value: 280.92 },
         ],
       },
       {
@@ -728,6 +732,12 @@ export class MemStorage implements IStorage {
           { time: "2025-12-01", value: 0.45 },
           { time: "2026-01-01", value: 11.57 },
           { time: "2026-02-01", value: 30.33 },
+          { time: "2026-03-01", value: 26.71 },
+          { time: "2026-04-01", value: -50.22 },
+          { time: "2026-05-01", value: 11.70 },
+          { time: "2026-06-01", value: 55.77 },
+          { time: "2026-07-01", value: -19.40 },
+          { time: "2026-08-01", value: -35.26 },
         ],
       },
        {
@@ -2182,7 +2192,7 @@ export class MemStorage implements IStorage {
         name: "Inflación (IPC mensual)",
         description: "El índice de precios al consumidor (IPC) mide la variación de precios de los bienes y servicios representativos del gasto de consumo de los hogares.",
         unit: "%",
-        trend: 95.10,
+        trend: -0.3,
         data: [
           { time: "2024-07-01", value: 154.76 },
           { time: "2024-08-01", value: 119.63 },
@@ -2209,6 +2219,7 @@ export class MemStorage implements IStorage {
           { time: "2026-05-01", value: 6.30 },
           { time: "2026-06-01", value: 12.00 },
           { time: "2026-07-01", value: 0.70 },
+          { time: "2026-08-01", value: -0.3 },
         ],
       },
       {
