@@ -2332,7 +2332,7 @@ export class MemStorage implements IStorage {
         name: "EMAE",
         description: "El Estimador Mensual de Actividad Económica (EMAE) refleja la evolución mensual de la actividad económica del conjunto de los sectores productivos a nivel nacional.",
         unit: "índice",
-        trend: -0.40,
+        trend: 0.44,
         data: [
           { time: "2024-08-01", value: 100.0 },
           { time: "2024-09-01", value: 99.0 },
@@ -2359,6 +2359,7 @@ export class MemStorage implements IStorage {
           { time: "2026-06-01", value: 110.0 },
           { time: "2026-07-01", value: 109.5 },
           { time: "2026-08-01", value: 109.9 },
+          { time: "2026-09-01", value: 110.4 },
         ],
       },
       {
