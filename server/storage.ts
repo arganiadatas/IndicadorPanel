@@ -734,6 +734,8 @@ export class MemStorage implements IStorage {
           { time: "2026-06-04", value: 278297.99 },
           { time: "2026-07-04", value: 424214.82 },
           { time: "2026-08-04", value: 434330.24 },
+          { time: "2026-09-04", value: 682511.37 },
+          { time: "2026-10-04", value: 1023767.05 },
         ],
       },
         {
@@ -767,7 +769,8 @@ export class MemStorage implements IStorage {
           { time: "2026-05-01", value: 11.70 },
           { time: "2026-06-01", value: 55.77 },
           { time: "2026-07-01", value: -19.40 },
-          { time: "2026-08-01", value: -35.26 },
+          { time: "2026-08-01", value: 35.26 },
+          { time: "2026-09-01", value: 24.07 },
         ],
       },
        {
@@ -2296,7 +2299,7 @@ export class MemStorage implements IStorage {
         name: "Canasta Básica Total",
         description: "La Canasta Básica Total establece el ingreso que un hogar tipo debe tener para satisfacer, por medio de la compra de bienes y servicios no alimentarios (vestimenta, educación, salud, etc.), un conjunto de necesidades consideradas esenciales.",
         unit: "%",
-        trend: 6.91,
+        trend: -21.55,
         data: [
           { time: "2024-06-01", value: 32.10 },
           { time: "2024-07-01", value: 61.80 },
@@ -2325,6 +2328,7 @@ export class MemStorage implements IStorage {
           { time: "2026-06-01", value: 3746281.77 },
           { time: "2026-07-01", value: 2696708.16 },
           { time: "2026-08-01", value: 2882920.80 },
+          { time: "2026-09-01", value: 2261611.04  },
         ],
       },
       {
@@ -2867,6 +2871,7 @@ export class MemStorage implements IStorage {
           { time: "2026-05-01", value: 8.86 },
           { time: "2026-06-01", value: 15.66 },
           { time: "2026-07-01", value: 11.97 },
+          { time: "2026-08-01", value: 4.01 },
         ],
       },
       {
@@ -3658,7 +3663,7 @@ export class MemStorage implements IStorage {
         name: "Producto Bruto Interno (PBI)",
         description: "El Producto Bruto Interno (PBI) representa el valor total de todos los bienes y servicios finales producidos en el país durante un período determinado. Es el principal indicador del tamaño y salud de la economía.",
         unit: "var. % anual",
-        trend: -56.13,
+        trend: -8.67,
         data: [
           { time: "2024-09-01", value: 7129.48 },
           { time: "2024-10-01", value: 2715.37 },
@@ -3683,6 +3688,8 @@ export class MemStorage implements IStorage {
           { time: "2026-05-01", value: 50.83 },
           { time: "2026-06-01", value: -68.12 },
           { time: "2026-07-01", value: -56.13 },
+          { time: "2026-08-01", value: 34.01 },
+          { time: "2026-09-01", value: -8.67 },
         ],
       },
       {
